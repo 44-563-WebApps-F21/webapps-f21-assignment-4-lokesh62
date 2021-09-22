@@ -22,3 +22,23 @@
 .MASON{
     color:red;
 }
+table{
+    border: 1px solid black;
+    padding:45px 30px 50px;
+    margin: 25px 50px 80px 100px;
+    width:50px;
+}
+th{
+    color:black;
+    border:1px solid black;
+    text-align: center;
+    background-color:blue;
+}
+td{
+    color:blue;
+    border:1px solid black;
+    text-align:left;
+}
+tr:nth-child(even){
+    background-color:chocolate;
+}
