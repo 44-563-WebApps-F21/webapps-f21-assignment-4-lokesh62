@@ -3,10 +3,14 @@
     font-size: 17px;
     font-family: Times New Roman;
 }
-.stagedirection{
+.stage-direction{
     color:black;
     font-family: Times New Roman;
     background-color: lightcoral;
+}
+.stage-direction:hover{
+    color:seagreen;
+    background-color: chartreuse;
 }
 .name{
     color:black;
@@ -47,4 +51,28 @@ td{
 }
 tr:nth-child(even){
     background-color:chocolate;
+}
+.name:hover{
+    text-shadow: 2px 3px  4px red2;
+    filter: blur(1px);
+    border:solid 3px rgb(198, 192, 255)
+}
+ul.navbar-horizantal{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+ul.navbar-horizantal li{
+    float:left;
+    color:bluevoilet;
+    background-color: crimson;
+}
+ul.navbar-horizantal a{
+    display:block;
+    padding:10px;
+    color:yellow;
+}
+ul.navbar-horizantal a.hover{
+    background-color:green;
+    color:cyan;
 }
