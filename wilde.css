@@ -76,3 +76,23 @@ ul.navbar-horizantal a.hover{
     background-color:green;
     color:cyan;
 }
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: 170px;
+    right: 30px;
+    height: 415px;
+    width: 350px;
+}
+.peace:before{
+    content: '';
+    background:url('peace.jpg');
+    background-size:cover;
+    position:absolute;
+    background-color: skyblue;
+    width:30px;
+    height:20px;
+    margin-left:-10px;
+}
